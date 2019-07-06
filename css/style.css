@@ -5,3 +5,26 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
+  body {
+      background-color: #2C2141;
+  }
+
+  .card {    
+      max-width: 624px;
+      max-height: 320px;
+  }
+  .person__photo {
+      max-width: 148px;
+      max-height: 148px;
+      border-radius: 50%;
+  }
+
+  .main {
+      padding: 32px;
+    
+  }
+
+  .person__link {
+      text-decoration: none;
+  }
